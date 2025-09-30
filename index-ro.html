@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Heimdall Coffee Roastery — Prăjitorie de cafea de specialitate</title>
+  <meta name="description" content="Heimdall Coffee Roastery — cafea de specialitate prăjită proaspăt. Comandă online, parteneriate angro, ghiduri de preparare și întrebări frecvente." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --brand:#1a1a1a; --accent:#b07d43; }
+    html { scroll-behavior:smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol', sans-serif; }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,.7); }
+    .card { border-radius: 1rem; box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+    .btn { border-radius: 9999px; padding: .75rem 1.25rem; font-weight: 600; }
+    .btn-primary { background: var(--accent); color: #111; }
+    .btn-outline { border: 1px solid #d1d5db; }
+  </style>
+</head>
+<body class="bg-neutral-50 text-neutral-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 glass border-b border-neutral-200/60">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-full bg-neutral-900 text-white grid place-items-center font-black">H</div>
+        <span class="font-semibold tracking-tight">Heimdall Coffee Roastery</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#despre" class="hover:text-neutral-600">Despre</a>
+        <a href="#serii" class="hover:text-neutral-600">Serii de cafea</a>
+        <a href="#angro" class="hover:text-neutral-600">Angro</a>
+        <a href="#ghid" class="hover:text-neutral-600">Ghid de preparare</a>
+        <a href="#faq" class="hover:text-neutral-600">Întrebări</a>
+        <a href="#contact" class="hover:text-neutral-600">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#magazin" class="btn btn-primary">Comandă cafea</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-6xl font-black leading-tight">Cafea de specialitate, prăjită cu grijă în fiecare lot.</h1>
+        <p class="mt-4 text-lg text-neutral-600">Selecții single origin și blenduri curajoase, inspirate de mitologia nordică. Descoperă seriile noastre — de la Yggdrasil la Bifrost — și găsește profilul perfect pentru espresso sau filtru.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#serii" class="btn btn-primary">Vezi seriile</a>
+          <a href="#despre" class="btn btn-outline">Despre noi</a>
+        </div>
+        <div class="mt-8 text-xs text-neutral-500">Prăjim săptămânal • Ambalare sustenabilă • Transport în 24–48h</div>
+      </div>
+      <div class="relative">
+        <img src="Heimdallcoffee website data/coffee packs.png" alt="Pachete de cafea Heimdall" class="w-full rounded-2xl shadow-2xl border border-neutral-200" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Despre -->
+  <section id="despre" class="py-16 md:py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+      <div class="order-2 md:order-1">
+        <h2 class="text-3xl md:text-4xl font-extrabold">Cine suntem</h2>
+        <p class="mt-4 text-neutral-700">Heimdall Coffee Roastery este o prăjitorie independentă de cafea de specialitate. Selectăm loturi proaspete din origini remarcabile și le prăjim atent pentru a evidenția dulceața naturală, claritatea și corpul băuturii.</p>
+        <p class="mt-4 text-neutral-700">Folosim profiluri de prăjire dezvoltate în mod repetabil, testate pe espresso și filtru. Fiecare pungă include informații despre origine, altitudine, procesare și note de degustare.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#ghid" class="btn btn-outline">Ghid de preparare</a>
+          <a href="#contact" class="btn btn-primary">Contactează-ne</a>
+        </div>
+      </div>
+      <div class="order-1 md:order-2">
+        <div class="card p-6 bg-neutral-50 border border-neutral-200">
+          <h3 class="font-semibold text-lg">Valorile noastre</h3>
+          <ul class="mt-3 grid gap-2 text-sm text-neutral-700">
+            <li>• Trasabilitate și achiziții etice</li>
+            <li>• Prăjire proaspătă în loturi mici</li>
+            <li>• Ambalaje reciclabile</li>
+            <li>• Educație pentru clienți și parteneri</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serii -->
+  <section id="serii" class="py-16 md:py-24 bg-neutral-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Seriile noastre</h2>
+      <p class="mt-2 text-neutral-600">Inspirate de universul Heimdall: profile clare pentru espresso și filtru.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="card p-6 bg-white border border-neutral-200">
+          <h3 class="font-semibold text-xl">Yggdrasil</h3>
+          <p class="mt-2 text-sm text-neutral-700">Selecții luminoase pentru filtru: aciditate suculentă, claritate și dulce natural.</p>
+          <div class="mt-4"><a href="#magazin" class="text-neutral-900 underline">Cumpără</a></div>
+        </div>
+        <div class="card p-6 bg-white border border-neutral-200">
+          <h3 class="font-semibold text-xl">Bifrost</h3>
+          <p class="mt-2 text-sm text-neutral-700">Espresso echilibrat: corp plin, note de ciocolată și caramel, postgust lung.</p>
+          <div class="mt-4"><a href="#magazin" class="text-neutral-900 underline">Cumpără</a></div>
+        </div>
+        <div class="card p-6 bg-white border border-neutral-200">
+          <h3 class="font-semibold text-xl">Valkyrie</h3>
+          <p class="mt-2 text-sm text-neutral-700">Micro-loturi experimentale, procesări naturale și anaerobe.</p>
+          <div class="mt-4"><a href="#magazin" class="text-neutral-900 underline">Cumpără</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Angro -->
+  <section id="angro" class="py-16 md:py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold">Parteneriate angro</h2>
+        <p class="mt-3 text-neutral-700">Oferim cafea proaspăt prăjită pentru cafenele, restaurante și birouri. Training barista, calibrare espressoare, livrare recurentă și prețuri preferențiale pentru parteneri.</p>
+        <ul class="mt-4 text-neutral-700 text-sm">
+          <li>• Probe gratuite pentru evaluare</li>
+          <li>• Consiliere pentru rețete și meniuri</li>
+          <li>• Materiale de brand</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary mt-6 inline-block">Cere ofertă</a>
+      </div>
+      <div class="card p-6 bg-neutral-50 border border-neutral-200">
+        <h3 class="font-semibold">Ce includem</h3>
+        <div class="mt-3 grid md:grid-cols-2 gap-4 text-sm">
+          <div class="p-4 bg-white border border-neutral-200 rounded-xl">Consultanță la deschidere</div>
+          <div class="p-4 bg-white border border-neutral-200 rounded-xl">Livrare programată</div>
+          <div class="p-4 bg-white border border-neutral-200 rounded-xl">Suport rețete</div>
+          <div class="p-4 bg-white border border-neutral-200 rounded-xl">Etichete personalizate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ghid -->
+  <section id="ghid" class="py-16 md:py-24 bg-neutral-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Ghid de preparare</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="card p-6 bg-white border border-neutral-200">
+          <h3 class="font-semibold">V60 / Pour-over</h3>
+          <p class="mt-2 text-sm text-neutral-700">15 g cafea • 250 g apă la 92–94 °C • 2:30–3:00 • gradație medie.</p>
+        </div>
+        <div class="card p-6 bg-white border border-neutral-200">
+          <h3 class="font-semibold">Espresso</h3>
+          <p class="mt-2 text-sm text-neutral-700">18 g în sită • 36–40 g în ceașcă • 26–30 s • temperatura 93–94 °C.</p>
+        </div>
+        <div class="card p-6 bg-white border border-neutral-200">
+          <h3 class="font-semibold">French Press</h3>
+          <p class="mt-2 text-sm text-neutral-700">18 g cafea • 300 g apă • 4:00 • macină grosier, amestecă ușor după 1:00.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16 md:py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Întrebări frecvente</h2>
+      <div class="mt-6 divide-y divide-neutral-200">
+        <details class="py-4">
+          <summary class="font-semibold cursor-pointer">Cât de des prăjiți cafeaua?</summary>
+          <p class="mt-2 text-neutral-700">Prăjim în loturi mici în fiecare săptămână. Pe etichetă găsești data prăjirii.</p>
+        </details>
+        <details class="py-4">
+          <summary class="font-semibold cursor-pointer">Ce gramaje sunt disponibile?</summary>
+          <p class="mt-2 text-neutral-700">Pungi de 250 g și 1 kg. Pentru angro, putem oferi și alte opțiuni.</p>
+        </details>
+        <details class="py-4">
+          <summary class="font-semibold cursor-pointer">Faceți livrări în toată țara?</summary>
+          <p class="mt-2 text-neutral-700">Da, livrăm în 24–48 h prin curier, în toată România.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 md:py-24 bg-neutral-50">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Contact</h2>
+      <p class="mt-3 text-neutral-700">Scrie-ne pentru comenzi, colaborări sau întrebări. Răspundem rapid.</p>
+      <form class="mt-6 grid md:grid-cols-2 gap-4" onsubmit="event.preventDefault(); alert('Mulțumim! Vom reveni în scurt timp.');">
+        <input class="border border-neutral-300 rounded-xl p-3" placeholder="Nume" required />
+        <input class="border border-neutral-300 rounded-xl p-3" placeholder="Email" type="email" required />
+        <input class="border border-neutral-300 rounded-xl p-3 md:col-span-2" placeholder="Subiect" />
+        <textarea class="border border-neutral-300 rounded-xl p-3 md:col-span-2" rows="5" placeholder="Mesaj"></textarea>
+        <button class="btn btn-primary md:col-span-2 w-max">Trimite</button>
+      </form>
+      <div class="mt-6 text-sm text-neutral-600">
+        <div>Adresă: —</div>
+        <div>Telefon: —</div>
+        <div>Email: contact@exemplu.ro</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 border-t border-neutral-200 bg-white">
+    <div class="max-w-6xl mx-auto px-4 text-sm text-neutral-600 grid md:grid-cols-2 gap-4 items-center">
+      <div>© <span id="year"></span> Heimdall Coffee Roastery. Toate drepturile rezervate.</div>
+      <div class="md:text-right">
+        <a href="#top" class="underline">Înapoi sus</a>
+        <span class="mx-2">·</span>
+        <a href="#" class="underline">Politica de confidențialitate</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cookie banner -->
+  <div id="cookie" class="fixed inset-x-4 bottom-4 md:inset-x-auto md:right-4 md:bottom-4 p-4 card bg-white border border-neutral-200 max-w-xl">
+    <div class="flex items-start gap-4">
+      <div class="grow text-sm text-neutral-700">
+        Folosim cookie-uri pentru o experiență mai bună. Continuând, ești de acord cu <a href="#" class="underline">politica de cookie-uri</a>.
+      </div>
+      <button class="btn btn-primary" onclick="document.getElementById('cookie').remove()">Accept</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
